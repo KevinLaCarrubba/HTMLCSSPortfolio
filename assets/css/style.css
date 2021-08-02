@@ -36,6 +36,17 @@ a:hover {
     color: aquamarine;
 }
 
+nav ul li span {
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+span:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
 nav {
     flex-grow: 1;
 }
