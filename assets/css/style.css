@@ -26,24 +26,17 @@ ul {
     justify-content: space-evenly;
 }
 
-a {
+.navLink {
     text-decoration: none;
     font-size: 15px;
     color: whitesmoke;
 }
 
-a:hover {
+.navLink:hover {
     color: aquamarine;
 }
 
-nav ul li span {
-    text-decoration: none;
-    font-size: 15px;
-    color: whitesmoke;
-}
-
-span:hover {
-    color: aquamarine;
+.fakeLink:hover {
     cursor: pointer;
 }
 
