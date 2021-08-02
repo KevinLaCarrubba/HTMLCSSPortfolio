@@ -1,20 +1,12 @@
-
-    /* background-image: url(../images/blackwood.jpg);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center; */
 body {
-     margin: 1rem;
-     display: flex;
-     flex-direction: column;
-     height: calc(100vh - 2rem);
-     background-image: url(../images/blackwood.jpg);
-     /* calculate to allow no scroll
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 2rem);
+    background-image: url(../images/blackwood.jpg);
+    /* calculate to allow no scroll
      by taking account of the margin */
- }
+}
 h1 {
     font-size: 60px;
     flex-grow: 2;
@@ -28,10 +20,10 @@ header {
     align-items: center;
 }
 
-ul  {
+ul {
     flex-grow: 1;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 a {
@@ -48,7 +40,6 @@ nav {
     flex-grow: 1;
 }
 
-
 /* main sectio */
 main {
     flex: 2;
@@ -57,7 +48,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 img {
@@ -68,10 +58,9 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: calc(100vw-2rem); 
+    width: calc(100vw-2rem);
 }
 h2 {
-    
     color: grey;
     flex: 1;
     flex-grow: 1;
@@ -105,7 +94,10 @@ p {
     max-height: 70px;
     height: auto;
     width: auto;
-    
+}
+
+a:hover img {
+    box-shadow: 0px 0px 8px whitesmoke;
 }
 /* footer */
 footer {
@@ -113,5 +105,3 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-
