@@ -1,104 +1,59 @@
-body {
-    background-image: url(../images/blackwood.jpg);
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
-
-}
-.text-right {
-    text-align: right;
-}
-li { 
-    display: inline;
-    padding: 0px 10px;    
-    text-decoration: none;     
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-    font-family: Staatliches;
-    background-image: url(../images/whitewood.jpg);
-    background-size: 100% 100%;
-    color: transparent;
-    -webkit-background-clip: text;
-}
-button{
-    padding: 0px 10px;
-    border-radius: 15px;
-    background-color: transparent;
-}
-
-button:hover {
-    background-color: black;
-}
-
-button:active{
-    background-color: white;
-}
-.paragraph {
-    background-color: grey;
-    background-size: contain;
-    opacity: 0.5;
-    padding-top: 10px;
-    padding: 20px;
-    color: black;
-    float: right;
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: center;
-    height: 100%;
-}
-
-.contact {
-    
-    text-align: cen;
-    padding: 20px 20px 20px 20px;
-    color: black;
-    float: right;
-    width: 75%;
-    height: 100%;
-}
-
-div img {
-    text-align: center;
-}
-
- header h1 {
-    padding-top: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-    font-family: Staatliches;
-    background-color: black;
-    background-image: url(../images/whitewood.jpg);
-    background-size: 100% 100%;
-    color: transparent;
-    -webkit-background-clip: text;
-
-}
-
+ body {
+     margin: 1rem;
+     display: flex;
+     flex-direction: column;
+     height: calc(100vh - 2rem);
+     /* calculate to allow no scroll
+     by taking account of the margin */
+ }
 h1 {
-    color: white;
-    text-align: center;
-    font-size: larger;
-    font-weight: bolder;
-    font-family: cursive;
+    flex-grow: 1;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* .banner {
-    background-image: url(../images/redblackbanner.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-} */
+ul  {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+
+/* main sectio */
+main {
+    flex: 2;
+    flex-grow: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 15rem;
+    flex: 1;
+}
+
+h2 {
+    flex: 1;
+}
+
+p {
+    flex: 1;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
