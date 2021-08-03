@@ -87,11 +87,18 @@ p {
 .myPort {
     border-radius: 8px;
     flex: 1;
+    flex-grow: 20;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.myPort a img:hover {
+    border-radius: 8px;
+    opacity: 0.5;
+}
 /* Contact bar at the bottom of the page */
 .contact {
     flex: 1;
